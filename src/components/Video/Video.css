@@ -1,0 +1,39 @@
+.videoRow {
+  height: 82%;
+}
+
+.vidcol {
+  height: 50%;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 7px;
+}
+
+.vidcol.self, .vidcol.peer1div {
+  padding-bottom: 0px;
+}
+
+.vidcol.peer2div, .vidcol.peer3div {
+  padding-bottom: 7px;
+}
+
+
+video {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.col-md-6 .selfCol {
+  display: flex;
+  justify-content: center;
+}
+
+.local {
+  display: flex;
+}
+
+.peerName{
+  color: white;
+}

@@ -1,0 +1,30 @@
+#userListGrid {
+  height: 100%;
+  width: auto;
+}
+
+.userPic {
+  width: 70px;
+  height: 65px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+.userName {
+  font-size: 16px;
+  color: white;
+  display: inline-block;
+
+}
+
+.userListComponent {
+  background-color: rgb(48, 48, 48);
+  border-radius: 10px;
+  min-height: 90px;
+  width:100%;
+  margin-bottom: 3px;
+  margin-left:8px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align:center;
+}

@@ -1,0 +1,56 @@
+.login {
+  display: block;
+  width: 100vw;
+}
+
+.flexWrapper {
+  height: 100vh;
+  display: -webkit-flex;
+  display:         flex;
+  flex-direction: column;
+  background: black;
+}
+
+.flexBody {
+  flex: 1 1 auto;
+}
+
+.title {
+  margin-top: 150px;
+  color: #E26A6A;
+  font-size: 90px;
+  text-align: center;
+}
+
+.subtitle {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.socialBtn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.fetching {
+  color: white;
+  font-size: 50px;
+}
+
+.spinner {
+  color: white;
+}
+
+.fetcherWrapper {
+  width: 120px;
+  height: 130px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translate(-50%, -50%);
+}
